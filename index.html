@@ -1,8 +1,106 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism.min.css">
+    <link rel="stylesheet" type="text/css" href="//openguide.cnx.org/assets/css/app.css">
+    <link rel="stylesheet" type="text/css" href="./simple.css">
+  </head>
+  <body>
+    <header class="header">
+    <nav class="nav sticky sticky--not-bottom sticky--pinned sticky--top">
+      <div class="nav-left">
+        <div class="nav-item">
+          <a href="#/">
+            <img src="//openguide.cnx.org/assets/img/svg/logo.svg" class="logo" alt="OpenStax logo">
+          </a>
+        </div>
+        <div class="nav-item">
+          <span class="icon search--icon">
+            <i class="fa fa-search"></i>
+          </span>
+        </div>
+      </div>
+      <div class="nav-center">
+        <div class="container">
+          <div class="search">
+            <div class="control is-grouped">
+              <p class="control is-expanded has-icons-left">
+                <input id="path-input" class="input" ref="input" type="text" placeholder="Path to css file in Connexions/recipes to parse">
+                <span class="icon is-medium is-left">
+                  <i class="fa fa-search"></i>
+                </span>
+              </p>
+            </div>
+            <div class="search-results menu">
+              <ul class="menu-list">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="body is-pinned">
+    <nav class="side-nav menu"></nav>
+    <main class="main section" id="top">
+        <div class="container">
+          <div id="section" data-is="style-guide-sections">
+            <!-- Style Guide section data -->
+            <section class="section">
+              <div class="columns">
+                <div class="column is-three-quarters-widescreen is-12-tablet">
+                  <nav class="nav github-bar">
+                    <div class="nav-left">
+                      <div class="nav-item">
+                        <p>Client-side KSS <span>proof of concept</span></p>
+                      </div>
+                    </div>
+                  </nav>
+                  <div class="content" id="content">
+                    <!-- parse KSS stuffs going here -->
+                  </div>
+                </div>
+                <div class="column is-hidden-touch is-hidden-desktop-only ">
+                  <div class="menu subsection">
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="container">
+            <div class="columns">
+              <div class="column">
+                <div class="meta">
+                  <a href="http://www.openstax.org/about" target="_blank">About</a>
+                  <a href="http://www.openstax.org/blog" target="_blank">Blog</a>
+                  <a href="http://www.openstax.org/contact" target="_blank">Contact</a>
+                </div>
+                <p>
+                  © 1996 - 2017 <a href="http://www.openstax.org" target="_blank">OpenStax</a>.
+                  All Rights Reserved.
+                </p>
+              </div>
+              <div class="column">
+                <a class="icon" href="https://github.com/openstax/ostext-style-guide" target="_blank">
+                  <i class="fa fa-github-alt"></i>
+                </a>
+                <a class="icon" href="https://www.facebook.com/openstax" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+                <a class="icon" href="https://twitter.com/openstax" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a class="icon" href="https://www.linkedin.com/company/openstax" target="_blank">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+  </body>
 </html>
