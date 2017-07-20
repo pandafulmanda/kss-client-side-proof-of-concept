@@ -727,7 +727,7 @@ const Prism = __webpack_require__(41);
 window.OctoKat = OctoKat;
 window.OctoKat.Fetch = window.fetch.bind(window);
 
-const octo = new OctoKat({token: '5769e3d9ff1191eb84121ffe991202452eb8e43e'});
+const octo = new OctoKat();
 
 const organization = 'Connexions';
 const repo = 'cnx-recipes';
